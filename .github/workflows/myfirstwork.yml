@@ -16,7 +16,11 @@
      steps:
        - name: Checkout into the repository
          uses: actions/checkout@v4
+       - working-directory: ./path-to-your-subdirectory
        - name: Install dependencies
          run: npm install
        - name: Run tests
          run: npm test
+       - name: Install Dependencies
+       
+         
